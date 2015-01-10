@@ -62,6 +62,13 @@ hljs.registerLanguage('elm', function(hljs) {
         contains: [LIST, COMMENT],
         illegal: '\\W\\.|;'
       },
+      {
+        className: 'declaration',
+        begin: '\\btype\\b', end: '=',
+        keywords: 'type alias',
+        contains: [CONSTRUCTOR],
+        illegal: '\\W\\.|;'
+      },
 
       // "Whitespaces".
 
