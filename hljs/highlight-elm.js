@@ -43,7 +43,7 @@ hljs.registerLanguage('elm', function(hljs) {
 
   return {
     keywords:
-      'if then else case of let in type module where import as hiding open export foreign deriving port',
+      'if then else case of let in type module where import as hiding open export foreign deriving port',
     contains: [
 
       // Top-level constructions.
