@@ -34,10 +34,19 @@ h1 {
   font: bold 24px """ ++ cssFace headingFace ++ """;
   margin: 3rem 0 1rem;
 }
-p, ul, ol {
+p, ul, ol, table {
   font-family: """ ++ cssFace bodyFace ++ """;
   margin: 0 0 1rem;
   line-height: 1.5;
+}
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+td, th {
+  text-align: left;
+  border: 1px solid #ddd;
+  padding: 0.3rem 0.5rem;
 }
 ol ol {
   list-style: lower-latin;
